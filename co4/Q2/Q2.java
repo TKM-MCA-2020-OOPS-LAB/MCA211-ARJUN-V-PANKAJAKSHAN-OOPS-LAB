@@ -1,9 +1,8 @@
-package c04q2;
-//Create an Arithmetic package that has classes and interfaces for the 4 basic arithmetic
-//operations. Test the package by implementing all operations on two given numbers
+package Q2;
+
 import arithmetic.operations;
 import java.util.Scanner;
-public class C04Q2 
+public class Q2
 {
     public static void main(String[] args) 
     {
