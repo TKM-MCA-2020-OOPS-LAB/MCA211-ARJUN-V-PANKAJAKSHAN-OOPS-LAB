@@ -9,7 +9,6 @@ public class MultiThread {
         b.start();
         Thread.sleep(200);
 
-		// TODO Auto-generated method stub
 
 	}
 }

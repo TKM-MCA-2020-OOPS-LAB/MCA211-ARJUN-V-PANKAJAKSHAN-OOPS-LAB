@@ -1,12 +1,8 @@
-package co4;
-
 import java.util.Scanner;
 
 class NegativeIntegerException extends Exception
 {
-  /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 
 public NegativeIntegerException(String s)

@@ -2,28 +2,29 @@
 import java.util.*;
   class Employee {
     int empid,salary;                         //datamembers of class Employee initialized
-    string name,address;
+    String name,address;
     Employee()                                                  //default constructor
     {
         Scanner s=new Scanner(System.in);
-        System.out.println("Enter employee id/n");
+        System.out.println("Enter Employee Id");
         empid=s.nextInt();
-        System.out.println("Enter employee Name /n");
+        System.out.println("Enter Employee Name");
         name=s.next();
-        System.out.println("Enter employee Salary/n");
+        System.out.println("Enter Employee Salary");
         salary=s.nextInt();
-        System.out.println("Enter employee address /n");
+        System.out.println("Enter Employee Address");
         address=s.next();      
     }
+  }
     class Teacher extends Employee                                  //inheritance of class teacher(Single-level)
     {
-        string dept,sub;
-        Teacher();                                            //constrcutor of class teacher
+        String dept,sub;
+        Teacher()                                            //constrcutor of class teacher
         {
              Scanner t=new Scanner(System.in);
-             System.out.println("Enter department Name /n");
+             System.out.println("Enter department Name");
              dept=t.next();
-             System.out.println("Enter Subject  Name /n");
+             System.out.println("Enter Subject  Name");
              sub=t.next();
         }
         public void display()
@@ -38,8 +39,6 @@ import java.util.*;
 	}
 
     }
-   
-}
 
 public class inheritance {
     public static void main(String [] args)
@@ -48,8 +47,7 @@ public class inheritance {
 		Scanner r = new Scanner(System.in);
 		System.out.println("Enter no of teachers : ");
 		no = r.nextInt();
-		Teacher obj[] = new Teacher[no];   //number of employees is specified with the help of array
-		
+		Teacher obj[] = new Teacher[no];   
 		for(int i=0;i<no;i++)
 		{
 			obj[i] = new Teacher();
@@ -66,4 +64,3 @@ public class inheritance {
 }
 
     
-}

@@ -1,6 +1,6 @@
-package c04;
+package Q9;
 import java.util.*;
-public class Bubblsrt {
+public class q9 {
 
 	public static void main(String[] args) {
 		    int num, i, j, temp;
@@ -17,12 +17,12 @@ public class Bubblsrt {
 		      array[i] = x.nextInt();
 		 
 		    for (i = 0; i < ( num - 1 ); i++) {
-		      for (j = 0; j < num - i - 1; j++) {
-		        if (array[j] > array[j+1]) 
+		      for (j = i+1; j < num; j++) {
+		        if (array[i] > array[j]) 
 		        {
-		           temp = array[j];
-		           array[j] = array[j+1];
-		           array[j+1] = temp;
+		           temp = array[i];
+		           array[i] = array[j];
+		           array[j] = temp;
 		        }
 		      }
 		    }

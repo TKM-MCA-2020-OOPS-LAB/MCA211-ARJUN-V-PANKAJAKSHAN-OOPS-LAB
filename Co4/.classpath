@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Q1/|Q2/|Q5/|Q6/|Q10/|Q11/|Q12/|Q13/|Q14/" kind="src" path=""/>
+	<classpathentry kind="src" path="Q1"/>
+	<classpathentry kind="src" path="Q10"/>
+	<classpathentry kind="src" path="Q11"/>
+	<classpathentry kind="src" path="Q12"/>
+	<classpathentry kind="src" path="Q13"/>
+	<classpathentry kind="src" path="Q14"/>
+	<classpathentry kind="src" path="Q2"/>
+	<classpathentry kind="src" path="Q5"/>
+	<classpathentry kind="src" path="Q6"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,7 +1,6 @@
-package c04;
 import java.util.ArrayList;
 import java.util.List;
-public class PC {
+public class q7 {
 	static List<Integer> list = new ArrayList<Integer>();
 
     static class Producer implements Runnable {

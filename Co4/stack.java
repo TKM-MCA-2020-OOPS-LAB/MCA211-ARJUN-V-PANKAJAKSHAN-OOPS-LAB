@@ -1,11 +1,10 @@
-package c04;
 import java.util.*;
-public class Stckop {
+public class stack {
 	int top=-1,ch,item,i;
 	int a[] = new int[10];
     Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		Stckop st = new Stckop ();
+		stack st = new stack ();
 		st.stack();
 		}
 

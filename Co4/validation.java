@@ -1,5 +1,3 @@
-package co4;
-
 import java.util.Scanner;
  class UsernameException extends Exception {
 	

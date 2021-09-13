@@ -1,4 +1,3 @@
-package opsproj;
 import java.util.*;
 import java.time.*;
 
@@ -57,7 +56,7 @@ class calculate implements calBill
 
 }
 
-public class Q7BILL
+public class q7
 {
   public static void main(String[] args)
   {
